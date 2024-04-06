@@ -1,0 +1,14 @@
+.vp-watermark {
+  &::before {
+    position: absolute;
+    inset: 0;
+    content: attr(data-watermark);
+
+    color: attr(data-color);
+    font-size: attr(data-size);
+    font-weight: attr(data-weight);
+    transform: rotate(attr(data-rotate));
+    opacity: attr(data-opacity);
+    pointer-events: none;
+  }
+}
