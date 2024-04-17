@@ -1946,8 +1946,8 @@ packages:
       '@codemirror/view': ^6.0.0
       '@lezer/common': ^1.0.0
 
-  '@codemirror/commands@6.3.3':
-    resolution: {integrity: sha512-dO4hcF0fGT9tu1Pj1D2PvGvxjeGkbC6RGcZw6Qs74TH+Ed1gw98jmUgd2axWvIZEqTeTuFrg1lEB1KV6cK9h1A==}
+  '@codemirror/commands@6.4.0':
+    resolution: {integrity: sha512-HB3utD5GxCvEhSyj5EuG9KpuQQhFpxalh3lwrspyL/GeSNDe4c6JDxVzL12SJ+7gUknHjZzmq7OPCb9QPgiRmQ==}
 
   '@codemirror/lang-css@6.2.1':
     resolution: {integrity: sha512-/UNWDNV5Viwi/1lpr/dIXJNWiwDxpw13I4pTUAsNxZdg6E0mI2kTQb0P2iHczg1Tu+H4EBgJR+hYhKiHKko7qg==}
@@ -4201,8 +4201,8 @@ packages:
     engines: {node: ^14.13.0 || >=16.0.0}
     hasBin: true
 
-  confbox@0.1.6:
-    resolution: {integrity: sha512-ONc4FUXne/1UBN1EuxvQ5rAjjAbo+N4IxrxWI8bzGHbd1PyrFlI/E3G23/yoJZDFBaFFxPGfI0EOq0fa4dgX7A==}
+  confbox@0.1.7:
+    resolution: {integrity: sha512-uJcB/FKZtBMCJpK8MQji6bJHgu1tixKPxRLeGkNzBoOZzpnZUJm0jm2/sBDWcuBx1dYgxV4JU+g5hmNxCyAmdA==}
 
   connect-history-api-fallback@2.0.0:
     resolution: {integrity: sha512-U73+6lQFmfiNPrYbXqr6kZ1i1wiRqXnp2nhMsINseWXO8lDau0LGEffJ8kQi4EjLZympVgRdvqjAgiZ1tgzDDA==}
@@ -6469,9 +6469,8 @@ packages:
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
 
-  magic-string@0.30.9:
-    resolution: {integrity: sha512-S1+hd+dIrC8EZqKyT9DstTH/0Z+f76kmmvZnkfQVmOpDEF9iVgdYif3Q/pIWHmCoo59bQVGW0kVL3e2nl+9+Sw==}
-    engines: {node: '>=12'}
+  magic-string@0.30.10:
+    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
 
   magicast@0.3.4:
     resolution: {integrity: sha512-TyDF/Pn36bBji9rWKHlZe+PZb6Mx5V8IHCSxk7X4aljM4e/vyDvZZYwHewdVaqiA0nb3ghfHU/6AUpDxWoER2Q==}
@@ -8664,8 +8663,8 @@ packages:
       vue:
         optional: true
 
-  vue-router@4.3.0:
-    resolution: {integrity: sha512-dqUcs8tUeG+ssgWhcPbjHvazML16Oga5w34uCUmsk7i0BcnskoLGwjpa15fqMr2Fa5JgVBrdL2MEgqz6XZ/6IQ==}
+  vue-router@4.3.1:
+    resolution: {integrity: sha512-D0h3oyP6vp28BOvxv2hVpiqFTjTJizCf1BuMmCibc8UW0Ll/N80SWqDd/hqPMaZfzW1j+s2s+aTRyBIP9ElzOw==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -9853,7 +9852,7 @@ snapshots:
       '@codemirror/view': 6.26.3
       '@lezer/common': 1.2.1
 
-  '@codemirror/commands@6.3.3':
+  '@codemirror/commands@6.4.0':
     dependencies:
       '@codemirror/language': 6.10.1
       '@codemirror/state': 6.4.1
@@ -10610,7 +10609,7 @@ snapshots:
       estree-walker: 2.0.2
       glob: 8.1.0
       is-reference: 1.2.1
-      magic-string: 0.30.9
+      magic-string: 0.30.10
     optionalDependencies:
       rollup: 4.14.3
 
@@ -10644,7 +10643,7 @@ snapshots:
   '@rollup/plugin-replace@5.0.5(rollup@4.14.3)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.14.3)
-      magic-string: 0.30.9
+      magic-string: 0.30.10
     optionalDependencies:
       rollup: 4.14.3
 
@@ -10969,7 +10968,7 @@ snapshots:
 
   '@types/markdown-it-emoji@2.0.5':
     dependencies:
-      '@types/markdown-it': 13.0.7
+      '@types/markdown-it': 14.0.1
 
   '@types/markdown-it@13.0.7':
     dependencies:
@@ -11029,7 +11028,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.12.7
 
   '@types/semver@7.5.8': {}
 
@@ -11182,7 +11181,7 @@ snapshots:
       istanbul-lib-report: 3.0.1
       istanbul-lib-source-maps: 5.0.4
       istanbul-reports: 3.1.7
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       magicast: 0.3.4
       picocolors: 1.0.0
       std-env: 3.7.0
@@ -11206,7 +11205,7 @@ snapshots:
 
   '@vitest/snapshot@1.5.0':
     dependencies:
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       pathe: 1.1.2
       pretty-format: 29.7.0
 
@@ -11242,7 +11241,7 @@ snapshots:
       '@vue/compiler-ssr': 3.4.23
       '@vue/shared': 3.4.23
       estree-walker: 2.0.2
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       postcss: 8.4.38
       source-map-js: 1.2.0
 
@@ -11304,7 +11303,7 @@ snapshots:
       rollup: 4.14.3
       vite: 5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.30.3)
       vue: 3.4.23(typescript@5.4.5)
-      vue-router: 4.3.0(vue@3.4.23(typescript@5.4.5))
+      vue-router: 4.3.1(vue@3.4.23(typescript@5.4.5))
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -11339,7 +11338,7 @@ snapshots:
       style-loader: 3.3.4(webpack@5.91.0(esbuild@0.20.2))
       vue: 3.4.23(typescript@5.4.5)
       vue-loader: 17.4.2(vue@3.4.23(typescript@5.4.5))(webpack@5.91.0(esbuild@0.20.2))
-      vue-router: 4.3.0(vue@3.4.23(typescript@5.4.5))
+      vue-router: 4.3.1(vue@3.4.23(typescript@5.4.5))
       webpack: 5.91.0(esbuild@0.20.2)
       webpack-chain: 6.5.1
       webpack-dev-server: 5.0.4(webpack@5.91.0(esbuild@0.20.2))
@@ -11375,7 +11374,7 @@ snapshots:
       '@vue/devtools-api': 6.6.1
       '@vuepress/shared': 2.0.0-rc.9
       vue: 3.4.23(typescript@5.4.5)
-      vue-router: 4.3.0(vue@3.4.23(typescript@5.4.5))
+      vue-router: 4.3.1(vue@3.4.23(typescript@5.4.5))
     transitivePeerDependencies:
       - typescript
 
@@ -12232,7 +12231,7 @@ snapshots:
   c12@1.10.0:
     dependencies:
       chokidar: 3.6.0
-      confbox: 0.1.6
+      confbox: 0.1.7
       defu: 6.1.4
       dotenv: 16.4.5
       giget: 1.2.3
@@ -12539,7 +12538,7 @@ snapshots:
       tree-kill: 1.2.2
       yargs: 17.7.2
 
-  confbox@0.1.6: {}
+  confbox@0.1.7: {}
 
   connect-history-api-fallback@2.0.0: {}
 
@@ -15076,7 +15075,7 @@ snapshots:
     dependencies:
       sourcemap-codec: 1.4.8
 
-  magic-string@0.30.9:
+  magic-string@0.30.10:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
 
@@ -16320,7 +16319,7 @@ snapshots:
 
   rollup-plugin-dts@6.1.0(rollup@4.14.3)(typescript@5.4.5):
     dependencies:
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       rollup: 4.14.3
       typescript: 5.4.5
     optionalDependencies:
@@ -16339,7 +16338,7 @@ snapshots:
 
   rollup-plugin-resolve-shebang@1.0.1(rollup@4.14.3):
     dependencies:
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       rollup: 4.14.3
 
   rollup-plugin-terser@7.0.2(rollup@2.79.1):
@@ -16420,7 +16419,7 @@ snapshots:
   sandpack-vue3@3.1.11(@lezer/common@1.2.1)(vue@3.4.23(typescript@5.4.5)):
     dependencies:
       '@codemirror/autocomplete': 6.16.0(@codemirror/language@6.10.1)(@codemirror/state@6.4.1)(@codemirror/view@6.26.3)(@lezer/common@1.2.1)
-      '@codemirror/commands': 6.3.3
+      '@codemirror/commands': 6.4.0
       '@codemirror/lang-css': 6.2.1(@codemirror/view@6.26.3)
       '@codemirror/lang-html': 6.4.9
       '@codemirror/lang-javascript': 6.2.2
@@ -17419,7 +17418,7 @@ snapshots:
       debug: 4.3.4
       execa: 8.0.1
       local-pkg: 0.5.0
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       pathe: 1.1.2
       picocolors: 1.0.0
       std-env: 3.7.0
@@ -17467,7 +17466,7 @@ snapshots:
     optionalDependencies:
       vue: 3.4.23(typescript@5.4.5)
 
-  vue-router@4.3.0(vue@3.4.23(typescript@5.4.5)):
+  vue-router@4.3.1(vue@3.4.23(typescript@5.4.5)):
     dependencies:
       '@vue/devtools-api': 6.6.1
       vue: 3.4.23(typescript@5.4.5)
